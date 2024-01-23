@@ -21,11 +21,27 @@
     .choose_text h3 {
         font-size: 18px;
     }
+
+    .choose .titlepage h2 {
+        text-align: left;
+        margin-left: none;
+
+    }
     .choose .titlepage {
         padding-bottom: 40px;
+        text-align: center;
     }
     .choose .read_more {
         margin-top: 30px;
+    }
+
+    .choose .titlepage h3 {
+        text-align: center;
+        padding-left: none;
+    }
+
+    .choose .choose_img {
+        align-items: center;
     }
 }
 
@@ -112,10 +128,22 @@
     .choose .titlepage {
         padding-bottom: 40px;
     }
+
     .choose_img {
         margin-right: 0;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .choose_img figure img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .choose .titlepage h2 {
+        font-size: 24px;
+        text-align: left;
+        padding-left: 0;
     }
     .padding_left0 {
         padding-left: 15px;
@@ -131,7 +159,7 @@
         padding-bottom: 30px;
     }
     .titlepage h2 {
-        font-size: 34px;
+        font-size: 24px;
     }
     .about_img {
         margin-bottom: 20px;
